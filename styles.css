@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #E6F5FF;
+	font-family: "Outfit", sans-serif;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+}	
+
+.container {
+	max-width: 320px;
+	margin: 0 auto;
+
+}
+
+.qr-code {
+	background-color: white;
+	border-radius: 16px;
+	padding: 18px;
+	text-align: center;
+	margin: 0 1rem;
+}
+
+.qr-code img {
+	width: 100%;
+	border-radius: 16px;
+}
+
+.text {
+	padding: 14px 10px;
+}
+
+h2 {
+	color: #000033;
+	padding: 10px;
+}
+
+p {
+	color: grey;
+}
